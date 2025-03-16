@@ -1,0 +1,10 @@
+@import "../../vendor/filament/filament/resources/css/app.css";
+
+* {
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+}
+
+/* .filament-sidebar-nav {
+    @apply bg-gray-100 border-0 shadow-none;
+} */
