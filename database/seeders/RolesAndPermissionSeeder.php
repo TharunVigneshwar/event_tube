@@ -367,8 +367,8 @@ class RolesAndPermissionSeeder extends Seeder
 
 	$super_admin_user = User::create([
 		'name' => RolesEnum::SUPER_ADMIN,
-		'email' => 'tharunvigneshwar.kk@gmail.com',
-		'password' => bcrypt('admin'),
+		'email' => 'thrisanth143@gmail.com',
+		'password' => bcrypt('Thrisanth@8159'),
 	]);
 
 	$super_admin_user->assignRole(RolesEnum::SUPER_ADMIN);
