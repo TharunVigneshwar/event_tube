@@ -1,5 +1,5 @@
 <form wire:submit.prevent="authenticate" class="space-y-8">
-    <img id="logo" src="{{ URL::to('images/login-logo-light-mode.png') }}" width="350px" height="auto" alt="Logo">
+    <img id="logo" src="{{ URL::to('images/event_tube_logo.png') }}" width="350px" height="auto" alt="Logo">
     <x-filament::button class="w-full">
         <a href="{{ url('auth/google/redirect') }}" class="w-full font-bold text-lg">
             Log in with Google
@@ -13,9 +13,9 @@
         const theme = localStorage.getItem('theme');
 
         if (theme === 'light') {
-            logo.src = '{{ URL::to('images/login-logo-light-mode.png') }}';
+            logo.src = '{{ URL::to('images/event_tube_logo.png') }}';
         } else if (theme === null || theme === 'dark') {
-            logo.src = '{{ URL::to('images/login-logo-dark-mode.png') }}';
+            logo.src = '{{ URL::to('images/event_tube_logo.png') }}';
         }
     }
 
